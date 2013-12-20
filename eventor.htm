@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript" src="eventor.js"></script>
+    </head>
+    <body>
+        <a href="#" id="a">kjgjgjhgjh</a>
+        <div id="result"></div>
+        <script type="text/javascript">
+            
+            $E.attach(document.getElementById("a"), "click", function(e) {
+                document.getElementById("result").innerHTML += ("a");
+                return true;
+            });
+
+        </script>
+    </body>
+</html>
